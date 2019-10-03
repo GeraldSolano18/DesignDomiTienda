@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Oswald&display=swap');
+$ColorPrincipal :#7DAE45;
+$ColorSecondary:#08F0B9;
+
+$ColorBlack:#1B1F26;
+$ColorWhite:#ffffff;
+$ColorGrey:#C6C7C8;
+$ColorGrey1:#575A5F;
+
+
+
+
+$Tipo:'Bangers', cursive;
+$Tipo1:'Oswald', sans-serif;
+$Tipo2:'DM Serif Text' 'Italic', serif;
+
+$page-max-width:800px;
+
+$breakpoints: (
+        small: 360px,
+        medium: 640px,
+        large: 850px,
+        xlarge: 1024px,
+        xxlarge: 1240px,
+        xxxlarge: 1440px
+    );

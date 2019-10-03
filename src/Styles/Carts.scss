@@ -1,0 +1,51 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+.Home{
+    width: 340px;
+    height: 260px;
+    @include responsive(small){
+        width: 50px;
+        height: 50px;
+    }
+}
+.Container-Carts{
+    display: grid;
+    grid-template-columns: repeat(3, 440px) ;
+    position: absolute;
+    @include responsive(small){
+        grid-template-columns: repeat(3, 120px);
+        top: 20px;
+    } 
+    top: 45px;
+}
+
+.Carts{
+    width: 400px;
+    height: 400px;
+    @include responsive(small){
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-left: 8px;
+    
+    }
+    background-color:$ColorGrey;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.p{
+    width: 400px;
+    height: 200px;
+    color: $ColorBlack;
+    font-family: $Tipo1;
+    font-size: 50px;
+    @include responsive(small){
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+ 
+}

@@ -1,0 +1,84 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+
+
+.cuadro{
+    height: 700px;
+    width: 1049px;
+    background-color: $ColorGrey;
+    position: relative;
+    left:300px;
+    bottom: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2,400px)
+}
+.container{
+    width: 320px;
+    height: 150px;
+    background-color: $ColorBlack;
+    position: relative;
+    left: 20px;
+    top:10px;
+    border-radius: 15px;
+}
+
+.barra{
+    height: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background-color:$ColorSecondary ;
+    position: relative;
+    left:60px;
+    top: 70px;
+}
+.hoala{
+    width: 100%;
+    color: $ColorSecondary;
+    font-family: $Tipo;
+
+    font-size: 40px;
+    position: relative;
+    left:140px;
+    bottom: 30px;
+}
+.camisas{
+    width: 100%;
+    color: $ColorSecondary;
+    font-family: $Tipo;
+
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+.existencia{
+    color: $ColorGrey;
+    font-family: $Tipo;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+    left: 35px;
+}
+.producto{
+    color: $ColorGrey;
+    font-family: $Tipo;
+    font-size: 30px;
+    position: relative;
+  bottom: 40px;
+  left: 30px;
+}
+.ventas{
+    color: $ColorGrey;
+    font-family: $Tipo;
+    font-size: 30px;
+    position: relative;
+  bottom: 40px;
+  left: 75px;
+}
+.carita{
+    position: relative;
+    left: 130px;
+    top: 8px;
+}
