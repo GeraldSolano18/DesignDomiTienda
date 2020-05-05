@@ -68,7 +68,12 @@
    }
    .section-img1{  
     @include responsive(small){
-
+        border-radius: 10px;
+        top: 380px;
+        left: 20px;
+        grid-template-columns: repeat(2, 200px);
+        height: 150px;
+        width: 300px;
     }    
     display: grid;
     grid-template-columns: repeat(2, 500px);
@@ -87,7 +92,7 @@
 
 .H3{
     font-size: 70px;
-    color: $ColorPrincipal;
+    color: $ColorBlack;
     font-family: $Tipo1;
     @include responsive(small){
     font-size: 20px;
@@ -102,19 +107,28 @@
 }
 .stock{
    @include responsive(small){
-    width: 100px;
-    height: 80px;
-    margin-top: 30px;
-    margin-left: 20px;
+    width: 120px;
+    height: 90px;
+    position: relative;
+    top: 20px;
+    left: 10px;
    }
    width: 500px;
    height: 300px;
    position: relative;
-    margin-top: 50px;
+    top: 50px;
+   left: 60px;
     opacity: 0.9;
-    margin-left: 60px;
 }
 .pay{
+    @include responsive(small){
+        width: 120px;
+        height: 90px;
+        position: relative;
+        top: 30px;
+        right:20px;
+     top: 10px;
+       }
     width: 480px;
     height: 350px;
     position: relative;
@@ -124,17 +138,35 @@
 }
 .p1{
     @include responsive(small){
-        width: 250px;
-    
-        margin-top: 10px;
-        margin-left: 0px;
-        font-size: 15px;
+        text-align: center;
+        width: 150px;
+        font-size: 13px;
+        position: relative;
+        bottom: 20px;
+        right: 140px;
         }
     font-size: 30px;
     color: $ColorBlack;
     font-family: $Tipo1;
     margin-top: 40px;
     margin-left: 70px
+}
+.p2{
+    @include responsive(small){
+        text-align: center;
+        width: 150px;
+        font-size: 13px;
+        position: relative;
+        bottom: 30px;
+        right: 15px;
+  
+        }
+    font-size: 30px;
+    color: $ColorBlack;
+    font-family: $Tipo1;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 30px
 }
 
 

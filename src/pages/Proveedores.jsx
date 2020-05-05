@@ -1,18 +1,17 @@
-import React from 'react'
-import NavBar from '../Components/NavBar'
-import Menusize from '../Components/menusize'
+import React from "react";
+import Menusize from "../Components/menusize";
+import Banner from "../Components/bannerProveedor";
 
-const Proveedores=()=>{
-    return(
-        <div>
-        <section>
-            <NavBar/>
-        </section>
-        <section>
-            <Menusize/>
-        </section>
-      
+const Proveedores = () => {
+  return (
+    <div>
+      <div>
+        <Menusize />
+      </div>
+      <div>
+        <Banner />
+      </div>
     </div>
-    )
-}
+  );
+};
 export default Proveedores;

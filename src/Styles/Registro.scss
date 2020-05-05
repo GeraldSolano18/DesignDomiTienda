@@ -1,0 +1,72 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+.ContainerFther {
+  position: relative;
+  height: 100%;
+}
+.hmx {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.white {
+  width: 1200px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+
+.ContainerBoss {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+}
+
+.box {
+  width: 300px;
+  height: 30px;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  //font-family: $Tipo2;
+  font-size: 15px;
+ // text-decoration-color: $ColorPrincipal;
+}
+
+::placeholder {
+  color: $ColorGrey1;
+
+}
+
+.sub {
+  width: 300px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+//  background-color: $ColorBlack;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px ;
+  font-family: $Tipo2;
+  font-size: 18px;
+}
+.Datos{
+font-family: $Tipo1;
+font-size: 30px;
+color: $ColorBlack;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}

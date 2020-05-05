@@ -1,3 +1,34 @@
 @import "./Variables.scss";
 @import "./mixins.scss";
 
+
+
+.presentacion {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+.hola {
+  font-family: $Tipo1;
+  font-size: 20px;
+}
+.Bussines {
+  position: relative;
+  text-align: center;
+
+}
+.contenedorBuss {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+.img__container {
+  width: 250px;
+  height: 250x;
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  margin: auto;
+ 
+  
+}

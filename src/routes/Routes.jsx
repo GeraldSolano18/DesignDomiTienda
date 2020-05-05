@@ -11,12 +11,24 @@ import Graficos from "../pages/Graficos"
 import Proveedores from "../pages/Proveedores"
 import Pedidos from "../pages/Pedidos"
 import Quienes from "../pages/QuienesSom"
+import Soporte from "../pages/Soporte"
+import Maximiza from "../pages/maximiza"
+import Registro from "../pages/Registro"
+import Layout from "../Components/Layout"
+import Online from "../pages/OnlinePrincipal"
+import Clientes from "../pages/Clientes";
+import Productos from "../pages/productos"
+import FormEmpleados from "../Components/FormularioEmpleados"
+import ListaEmpleados from "../Components/ListaEmpleados"
+import Verproveedore from "../pages/proveedores/VerProveedor"
+import CrearProveedor from "../pages/proveedores/CrearProveedor"
 import {Context} from "../Context"
 
 const Routes=()=>{
     const {isAuth}=useContext(Context)
     console.log(isAuth)
     return(
+        <Layout>
          <Router>
              <Principal path="/"/>
             <LoginEmpresa path="/login"/> 
@@ -29,7 +41,18 @@ const Routes=()=>{
             <Proveedores path="/proveedores"/>
             <Pedidos path="/pedidos"/>
             <Graficos path="/graficos"/>
-            <Quienes path="/QuienesSomos"/>
+            <Quienes path="/quienessomos"/>
+            <Soporte path="/soporte"/>
+            <Maximiza path="/Maximiza"/>
+            <Registro path="/registro"/>
+            <Online path="/online"/>
+            <FormEmpleados path="/agregarEmpleado"/>
+            <ListaEmpleados path="/listaEmpleados "/>
+            <Clientes path="/clientes"/>
+            <Productos path="/productos"/>
+            <Verproveedore path="/verProveedor"/>
+            <CrearProveedor path="/crearProveedor"/>
+
 
 
             
@@ -38,7 +61,7 @@ const Routes=()=>{
 
          </Router>
 
-
+         </Layout>
     )
 }
 export default Routes;

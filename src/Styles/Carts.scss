@@ -1,8 +1,8 @@
 @import "./Variables.scss";
 @import "./mixins.scss";
 .Home{
-    width: 340px;
-    height: 260px;
+    width: 200px;
+    height: 200px;
     @include responsive(small){
         width: 50px;
         height: 50px;
@@ -35,9 +35,12 @@
     border-radius: 20px;
     text-align: center;
 }
+.Carts:hover{
+    transform:scale(1.1) 
+
+}
 .p{
-    width: 400px;
-    height: 200px;
+ 
     color: $ColorBlack;
     font-family: $Tipo1;
     font-size: 50px;

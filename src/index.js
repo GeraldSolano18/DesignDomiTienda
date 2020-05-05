@@ -5,7 +5,7 @@ import Router from "../src/routes/Routes"
 import Context from "./Context"
 
 import * as serviceWorker from './serviceWorker';
-//import principalEmpresa from './pages/PrincipalEmpresa';
+
 
 ReactDOM.render(<Context.Provider><Router/></Context.Provider>, document.getElementById('root'));
 

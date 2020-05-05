@@ -1,27 +1,48 @@
 import React from "react";
-import NavBar from "../Components/NavBar"
 
-import tshirt from'../img/tshirt.png'
+import logo from "../img/logo.svg";
+import fondo from "../img/fondoTienda.jpg";
+import pasta from "../img/vista-superior.jpg";
+import cora from "../img/corazon.jpg"
+import hambur from "../img/Hamgur.svg"
 
-class Online extends React.Component{
-    render(){
-        return(
-            <div>
-                <div>
-                    <NavBar/>
-                </div>
-                <section className="post-list">
-                    <figure className="post-img">
-                    <img src={tshirt} alt=""/>
-                    </figure>
-                    <span className=""></span>
-                    <p>
-                        <span></span>
-                        <span></span>
-                    </p>
-                </section>
-            </div>
-        )
-    }
+import "../Styles/OnlinePrincipal.scss";
+
+class Online extends React.Component {
+  render() {
+    return (
+      <div>
+        <img src={fondo} alt="" className="fondo1" />
+        <div className="presentacion">
+          <img src={logo} alt="" />
+          <p className="hola">Hola, como te ayudamos?</p>
+        </div>
+
+        <div className="contenedorBuss">
+
+          <div className="Bussines">
+          <h2>Farmacias</h2>
+            <p>Número de vendedores:</p>
+            <img src={cora} alt="pastillas" className="img__container" />
+         
+          </div>
+
+          <div className="Bussines">
+   
+            <h2>Restaurantes</h2>
+            <p>Número de vendedores:</p>
+            <img src={hambur} alt="pastillas" className="img__container" />
+          </div>
+
+          <div className="Bussines">
+            <img src="" alt="pastillas" className="img__container" />
+            <h2>Farmacias</h2>
+            <p>Número de vendedores:</p>
+          </div>
+
+        </div>
+      </div>
+    );
+  }
 }
 export default Online;

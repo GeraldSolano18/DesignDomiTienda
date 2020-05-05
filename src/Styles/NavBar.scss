@@ -40,19 +40,22 @@
     @include responsive (small){
       font-size:22px;
       margin-top:10px;
-      margin-left: 5px
+      margin-left: 5px;
+      margin-bottom: 0;
     }
     color: $ColorBlack;
     margin-top:8px;
     margin-left: 10px
 }
 .Botones{
- margin-top: 5px;
+ margin-top: 3px;
 }
 .B1{
+  cursor: pointer;
     background-color: $ColorPrincipal;
     border: 3px solid $ColorBlack;
     border-radius: 10px;
+    color:$ColorBlack;
     font-family: $Tipo1;
     margin-right: 8px;
     display: inline-block;
@@ -63,11 +66,16 @@
       margin-left: -110px;
     }
     font-size: 25px;
-    width: 120px;
+    width: 100px;
     height: 50px;
+    position: relative;
+    bottom: 5px;
+    text-align: center
+
 }
 
 .B2{
+  cursor: pointer;
     border:none;
     background-color: $ColorWhite;
     border-radius: 10px;
@@ -78,6 +86,9 @@
       height: 40px;
     }
     font-size: 25px;
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height:50px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color: $ColorBlack;
 }

@@ -4,14 +4,27 @@
 .img-log {
   width: 100%;
   opacity: 0.6;
+ 
 }
+.particles{
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+
 .login {
   background-color: $ColorWhite;
+  border-radius: 8px;
   width: 480px;
   height: 600px;
   position: absolute;
   top: 150px;
   left: 400px;
+}
+.login:hover .logo1 {
+  transform: scale(1.3);
 }
 
 .logo1 {
@@ -23,9 +36,9 @@
   top: 30px;
 }
 
-.log-Domi{
+.log-Domi {
   color: $ColorBlack;
-  font-family: $Tipo2;
+  font-family: $Tipo;
   font-size: 50px;
   text-align: center;
 }
@@ -47,7 +60,8 @@
 }
 
 .prueba {
-  height: 20px;
+  font-size: 20px;
+  height: 30px;
   width: 280px;
   border-radius: 3px;
   background-color: $ColorGrey;
@@ -55,25 +69,26 @@
   left: 100px;
   top: 15px;
 }
-.prueba2{
-    height: 20px;
-    width: 280px;
-    border-radius: 3px;
-    background-color: $ColorGrey;
-    position: relative;
-    left: 100px;
-    top: 90px;
+.prueba2 {
+  font-size: 20px;
+  height: 30px;
+  width: 280px;
+  border-radius: 3px;
+  background-color: $ColorGrey;
+  position: relative;
+  left: 100px;
+  top: 80px;
 }
-.ingresar{
-    height:35px;
-    width: 230px;  
-    border-radius:15px;
-    font-family: $Tipo2; 
-    font-size: 17px;
-    background-color:$ColorPrincipal;
-    position: relative;
-    left: 120px;
-    top: 150px;
+.ingresar {
+  cursor: pointer;
+  height: 40px;
+  width: 250px;
+  border-radius: 15px;
+  font-family: $Tipo2;
+  font-size: 22px;
+  color: $ColorWhite;
+  background-color: $ColorPrincipal;
+  position: relative;
+  left: 120px;
+  top: 130px;
 }
-
-

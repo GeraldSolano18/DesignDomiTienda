@@ -1,0 +1,59 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+.cuadro1 {
+  height: 700px;
+  width: 1049px;
+  background-color: $ColorGrey;
+  position: absolute;
+  left: 300px;
+  top: 75px;
+  bottom: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2,60% 40%);
+}
+.Padre {
+  border: solid 2px $ColorBlack;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  background-color: white;
+}
+.texto {
+  color: $ColorBlack;
+  font-family: $Tipo2;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+}
+
+.caja {
+  font-size: 20px;
+  height: 30px;
+  width: 350px;
+  border-radius: 3px;
+  display: block;
+  position: relative;
+  margin-top: 20px;
+}
+.boton1 {
+  cursor: pointer;
+  height: 40px;
+  width: 250px;
+  border-radius: 15px;
+  border: 0;
+  font-family: $Tipo2;
+  font-size: 22px;
+  color: $ColorWhite;
+  background-color: $ColorPrincipal;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.logoInv {
+  display: block;
+  margin: auto;
+}

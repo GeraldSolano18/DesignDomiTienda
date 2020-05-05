@@ -1,0 +1,21 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+.form-messageInvalid{
+margin-bottom: 20px;
+  font-family: $Tipo2;
+  color: red;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.form-messagevalid {
+    margin-bottom: 20px;
+  font-family: $Tipo2;
+  color: green;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}

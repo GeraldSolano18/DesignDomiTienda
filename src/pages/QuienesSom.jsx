@@ -1,15 +1,14 @@
 import React from 'react';
-import NavBar from '../Components/NavBar';
+
+import Slider from '../Components/Slider'
 
 const Quienes=()=>{
 return(
-    <div>
-        <div>
-        <NavBar/>
-        </div>
-        <div>
-            <h1>Quienes somos</h1>
-        </div>
+    <div>    
+        
+            <Slider/>  
+             <h1>Quienes somos</h1>
+      
     </div>
 )
 }

@@ -1,0 +1,23 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+.tablainventario{
+    background: $ColorWhite;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top:70px;
+    border: none;
+}
+.tableprueba{
+    color: $ColorWhite;
+    background-color: $ColorBlack;
+   
+}
+
+th, td{
+    padding: 20px;
+}
+tr:nth-child(even){
+    background-color: $ColorGrey;
+}

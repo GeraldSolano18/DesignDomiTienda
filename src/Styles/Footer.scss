@@ -1,0 +1,73 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+.Footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  height: 300px;
+  margin-top: 0;
+  background-color: $ColorBlack;
+  position: relative;
+  z-index: 99;
+
+}
+.pruebaa{
+  position: relative;
+}
+.particless{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  //background-color: red;
+  top: 0%;
+  left: 0;
+}
+
+.Redes {
+  height: 120px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.pDomi {
+  margin: 0;
+  font-family: $Tipo;
+  font-size: $Font;
+  text-align: center;
+  color: $ColorWhite;
+}
+.H {
+  font-family: $Tipo1;
+  font-size: $Font1;
+  color: $ColorWhite;
+  text-align: center;
+}
+.Green {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 15px;
+}
+.filtro {
+  display: block;
+  margin: auto;
+  height: 80px;
+  border-radius: 7px;
+}
+.enviar{
+  width: 80px;
+  padding: 4px;
+  background-color: $ColorPrincipal;
+  color:$ColorWhite;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  left: 135px;
+}

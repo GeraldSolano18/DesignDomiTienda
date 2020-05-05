@@ -1,0 +1,33 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+.cajaCliente {
+    background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  align-content: center;
+  height: 280px;
+  width: 1000px;
+  border: 2px solid;
+  border-color: $ColorBlack;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,33.3%);
+}
+.imgprofile{
+    height: 200px;
+    border-radius:50% ;
+    display: block;
+    margin: auto;
+}
+.textinfo{
+    font-family: $Tipo2;
+    font-size: 18px;
+  
+}
+.datos{
+    font-family: $Tipo1;
+    color:$ColorPrincipal;
+    font-size: 25px;
+}

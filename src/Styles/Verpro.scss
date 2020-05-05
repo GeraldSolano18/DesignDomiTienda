@@ -1,0 +1,24 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+.CajaPro{
+   width:1049px;
+   background-color: #4A9455;
+
+   position: absolute;
+   left: 300px;
+   top: 300px
+}
+.Cajapro2{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    align-content: center;
+    height: 100px;
+    width: 1000px;
+    border: 2px solid;
+    border-color: $ColorBlack;
+    border-radius: 10px;
+
+}

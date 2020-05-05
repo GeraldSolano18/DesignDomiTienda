@@ -1,0 +1,15 @@
+@import "./Variables.scss";
+@import "./mixins.scss";
+
+.btn-IrTienda{
+    font-family: $Tipo1;
+    color: green;
+    border: solid 3px $ColorPrincipal;
+    border-radius: 8px;
+    background-color: white;
+    opacity: 0.6;
+    font-size: 22px;
+    position: relative;
+    left: 25px;
+    bottom: 35px;
+}

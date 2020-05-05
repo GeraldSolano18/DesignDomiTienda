@@ -1,23 +1,21 @@
-import React from 'react';
-import NavBar from '../Components/NavBar'
-import Menusize from '../Components/menusize'
-import personas from "../img/personas.png"
+import React, { useState, useContext } from "react";
+import Menusize from "../Components/menusize";
+import MenuEmpleados from "../Components/menuEmpleados" 
 
-import "../Styles/Empleados.scss"
 
-const Empleados =()=>{
-return(
+
+const Empleados = () => {
+
+  return (
     <div>
-    <section>
-        <NavBar/>
-    </section>
-    <section>
-        <Menusize/>
-    </section>
-    <div>
-       <img className="" src={personas} alt=""/>
+      <section >
+          <Menusize />  
+      </section>
+      <section>
+      < MenuEmpleados/>
+      </section>
+
     </div>
-</div>
-)
-}
+  );
+};
 export default Empleados;
